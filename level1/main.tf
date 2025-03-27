@@ -15,10 +15,10 @@ terraform {
 
 provider "aws" {
   region = "us-west-2"
-  access_key = var.aws_access_key
-  secret_key = var.aws_secret_key
+  #access_key = var.aws_access_key
+  #secret_key = var.aws_secret_key
 
-  assume_role {
-    role_arn = "arn:aws:iam::273354629542:role/level-1-handsOn-ques"
-  }
+  #assume_role {
+  #  role_arn = "arn:aws:iam::273354629542:role/level-1-handsOn-ques"
+  #}
 }
